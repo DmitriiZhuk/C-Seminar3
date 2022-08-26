@@ -4,7 +4,7 @@
 3 -> 1, 8, 27
 5 -> 1, 8, 27, 64, 125
 */
-Console.Write("Введите количество чисел (N): ");
+Console.Write("Введите на вход число (N): ");
 int N = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[N];
 
@@ -16,7 +16,7 @@ for (int i = 1; i <= N; i++)
 Console.WriteLine("");
 
 /* Универсальное решение для степеней
-Console.Write("Введите количество чисел (N): ");
+Console.Write("Введите на вход число (N): ");
 int N = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите степень: ");
